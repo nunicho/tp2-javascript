@@ -10,5 +10,5 @@ else if (edad<18) {
     document.write("No tiene edad legal para solicitar la licencia.")
 }
 else{
-    document.write ("El texto ingresado no es un caracter válido.")
+    document.write ("El texto ingresado no es una cifra válida.")
 }
