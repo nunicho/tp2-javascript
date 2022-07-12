@@ -11,13 +11,20 @@ indica 30).
 1
 */
 
-for (let numero = parseInt(prompt("Ingrese un número: ")); numero>0; numero--){
+let valor = parseInt(prompt("Ingrese un número mayor a 0  y menor o igual a 50: "))
+
+if (valor <= 50 && valor >=0){
+for (let numero = valor; numero>0; numero--){
+
     for (let cifra = numero; cifra>0; cifra--){
         document.write(numero);
     }
 document.write("<br>")
 }
-
+}
+else{
+    alert("Lo ingresado no es válido")
+}
 
 /*
 Se necesitan dos ciclos, uno que sería la condición del primer ciclo y dentro de otro ciclo donde tome ese número actual como condición para imprimirse. Luego viene el salto de línea. 
