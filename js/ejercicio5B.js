@@ -10,6 +10,8 @@ W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)
 Si lo introducido no es un número deberá indicarse con un alert y volver a
 preguntar.
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
+
+ESTA ES LA RESOLUCIÓN QUE HICE ANTES DE LA EXPLICACIÓN EN CLASE DEL 12/7/22.
 */
 
 while (confirm("Click Aceptar para ingresar su DNI") == true) {
@@ -38,7 +40,7 @@ while (confirm("Click Aceptar para ingresar su DNI") == true) {
     if (numero % 23 == 20) alert("Le corresponde la letra C");
     if (numero % 23 == 21) alert("Le corresponde la letra K");
     if (numero % 23 == 22) alert("Le corresponde la letra E");
-  } else {
+  }else {
     alert("El texto ingresado no es un número de DNI válido");
   }
 }
