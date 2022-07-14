@@ -1,16 +1,15 @@
 /* 15 - Realiza un script que cuente el número de vocales que tiene un texto.
 
 */
+let texto = prompt("Ingrese texto: ");
 
-let texto = prompt("Ingrese texto: ")
-
-document.write("El texto ingresado fue :" + texto)
+document.write("El texto ingresado fue :" + texto);
 
 let textoMinuscula = texto.toLowerCase();
 
-let textoNoConsonantes = textoMinuscula.replace(/[^aeiouáéíóú]/g, "")
+let textoNoConsonantes = textoMinuscula.replace(/[^aeiouáéíóú]/g, "");
 
-document.write(" <br>Las vocales de este texto son: "+textoNoConsonantes +"<br>")   
+document.write(" <br>Las vocales de este texto son: "+textoNoConsonantes +"<br>");
 
 
 let countTotal = textoNoConsonantes.split("").length;
@@ -30,8 +29,6 @@ document.write("Cantidad de vocales O: " + countO +"<br>");
 
 let countU = (textoNoConsonantes.split("u").length - 1)+(textoNoConsonantes.split("ú").length  - 1);
 document.write("Cantidad de vocales U: " + countU +"<br>");
-
-
 
 /*
 A la mecánica replace la aprendí de:
