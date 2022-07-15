@@ -13,7 +13,7 @@ indica 30).
 
 let valor = parseInt(prompt("Ingrese un número mayor a 0  y menor o igual a 50: "))
 
-if (valor <= 50 && valor >=0){
+if ( valor>=0 && valor<=50){
 for (let numero = valor; numero>0; numero--){
 
     for (let cifra = numero; cifra>0; cifra--){

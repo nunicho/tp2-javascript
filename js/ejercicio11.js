@@ -35,3 +35,7 @@ else if (edad3==edadMayor && edadMayor>edad1 && edadMayor>edad2){
 else{
     document.write(nombre1+", "+nombre2 +" y "+nombre3 +" tienen la misma edad.")
 }
+
+/*
+La función Math.max() retorna el mayor de cero o más números dados como parámetros de entrada, o NaN si cualquier parámetro no es un número y no puede ser convertido en uno.
+*/
